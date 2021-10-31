@@ -27,3 +27,8 @@ mv Windows-XP/ winxp-themes/
 git clone https://github.com/B00merang-Project/Windows-XP
 sudo cp -r Windows-XP/Windows\ XP\ Luna/metacity-1/ /usr/share/themes/CinnXP-Luna/
 sudo cp -r winxp-themes/ /usr/share/icons/
+
+# Add wallpaper
+cd /usr/share/wallpapers
+wget https://github.com/jacksonhorton/bash-scripts/raw/main/xp-desk.jpg
+gsettings set org.cinnamon.desktop.background picture-uri file:/usr/share/wallpapers/xp-desk.jpg
