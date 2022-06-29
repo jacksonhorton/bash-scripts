@@ -26,3 +26,6 @@ sudo apt install htop
 # Install git
 sudo apt-get install git
 
+
+# Install Filezilla
+sudo apt install filezilla
